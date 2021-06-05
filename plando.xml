@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<randomizer>
+  <title>Infected 4 Mask Shards v1.0</title>
+  <defaultShopItems>None</defaultShopItems>
+  <forceUseFirstSimpleKeyOnWaterways>True</forceUseFirstSimpleKeyOnWaterways>
+  <unlockAllColosseumTrials>True</unlockAllColosseumTrials>
+  <reusableCityCrestWithNoHardSave>True</reusableCityCrestWithNoHardSave>
+  <openLowerBeastsDenThroughShortcut>True</openLowerBeastsDenThroughShortcut>
+  <removeBeastsDenHardSave>True</removeBeastsDenHardSave>
+  <skipDreamerTextBeforeDreamNail>True</skipDreamerTextBeforeDreamNail>
+  <blockLegEaterDeath>True</blockLegEaterDeath>
+  <oneBlueHPLifebloodCoreDoor>True</oneBlueHPLifebloodCoreDoor>
+  <reduceBaldurHP>True</reduceBaldurHP>
+  <transitionQOL>True</transitionQOL>
+  <miscSkipFixes>True</miscSkipFixes>
+  <moveSeerLeft>True</moveSeerLeft>
+  <fixVoidHeart>True</fixVoidHeart>
+  <blockZoteDeath>True</blockZoteDeath>
+  <startWithoutFocus>False</startWithoutFocus>
+  <colo1ItemPrompt>True</colo1ItemPrompt>
+  <colo2ItemPrompt>True</colo2ItemPrompt>
+  <flowerQuestPrompt>True</flowerQuestPrompt>
+  <whitePalacePrompt>True</whitePalacePrompt>
+  <skipExtraPlatformScenes>
+    <sceneName>Abyss_02</sceneName>
+    <sceneName>Abyss_03</sceneName>
+    <sceneName>Abyss_06_Core</sceneName>
+    <sceneName>Abyss_17</sceneName>
+    <sceneName>Abyss_20</sceneName>
+    <sceneName>Cliffs_02</sceneName>
+    <sceneName>Deepnest_01b</sceneName>
+    <sceneName>Fungus2_15</sceneName>
+    <sceneName>Fungus3_05</sceneName>
+    <sceneName>Room_Colosseum_02</sceneName>
+    <sceneName>Town</sceneName>
+    <sceneName>Waterways_04</sceneName>
+  </skipExtraPlatformScenes>
+  <ilp>
+    <item>Lurien</item>
+    <location>Start</location>
+  </ilp>
+  <ilp>
+    <item>Gathering_Swarm</item>
+    <location>Start</location>
+  </ilp>
+  <ilp>
+    <item>Wayward_Compass</item>
+    <location>Fury_of_the_Fallen</location>
+  </ilp>
+  <ilp>
+    <item>Mask_Shard</item>
+    <location>Sly</location>
+    <cost>500</cost>
+    <costType>Geo</costType>
+  </ilp>
+  <ilp>
+    <item>Quick_Slash</item>
+    <location>Hallownest_Seal-Crossroads_Well</location>
+    <cost>15</cost>
+    <costType>Geo</costType>
+  </ilp>
+  <addSpecialGameObject>
+    <specialName>Shadow Gate</specialName>
+    <deploySceneName>Crossroads_01</deploySceneName>
+    <deployOneX>60</deployOneX>
+    <deployOneY>12</deployOneY>
+    <paramOne />
+    <paramTwo />
+  </addSpecialGameObject>
+  <addSpecialGameObject>
+    <specialName>Shadow Gate</specialName>
+    <deploySceneName>Crossroads_08</deploySceneName>
+    <deployOneX>48</deployOneX>
+    <deployOneY>22</deployOneY>
+    <paramOne />
+    <paramTwo />
+  </addSpecialGameObject>
+  <addSpecialGameObject>
+    <specialName>Shadow Gate</specialName>
+    <deploySceneName>Crossroads_08</deploySceneName>
+    <deployOneX>5</deployOneX>
+    <deployOneY>5</deployOneY>
+    <paramOne />
+    <paramTwo />
+  </addSpecialGameObject>
+  <addSpecialGameObject>
+    <specialName>Shadow Gate</specialName>
+    <deploySceneName>Crossroads_30</deploySceneName>
+    <deployOneX>5</deployOneX>
+    <deployOneY>10</deployOneY>
+    <paramOne />
+    <paramTwo />
+  </addSpecialGameObject>
+  <addSpecialGameObject>
+    <specialName>Shadow Gate</specialName>
+    <deploySceneName>Crossroads_19</deploySceneName>
+    <deployOneX>3</deployOneX>
+    <deployOneY>7</deployOneY>
+    <paramOne />
+    <paramTwo />
+  </addSpecialGameObject>
+  <addSpecialGameObject>
+    <specialName>Shadow Gate</specialName>
+    <deploySceneName>Crossroads_04</deploySceneName>
+    <deployOneX>140</deployOneX>
+    <deployOneY>12</deployOneY>
+    <paramOne />
+    <paramTwo />
+  </addSpecialGameObject>
+  <addSpecialGameObject>
+    <specialName>Shadow Gate</specialName>
+    <deploySceneName>Crossroads_04</deploySceneName>
+    <deployOneX>140</deployOneX>
+    <deployOneY>22</deployOneY>
+    <paramOne />
+    <paramTwo />
+  </addSpecialGameObject>
+  <addSpecialGameObject>
+    <specialName>Shadow Gate</specialName>
+    <deploySceneName>Crossroads_04</deploySceneName>
+    <deployOneX>152</deployOneX>
+    <deployOneY>25</deployOneY>
+    <paramOne />
+    <paramTwo />
+  </addSpecialGameObject>
+  <addSpecialGameObject>
+    <specialName>Shadow Gate</specialName>
+    <deploySceneName>Crossroads_03</deploySceneName>
+    <deployOneX>4</deployOneX>
+    <deployOneY>32</deployOneY>
+    <paramOne />
+    <paramTwo />
+  </addSpecialGameObject>
+  <addSpecialGameObject>
+    <specialName>Shadow Gate</specialName>
+    <deploySceneName>Crossroads_03</deploySceneName>
+    <deployOneX>3</deployOneX>
+    <deployOneY>9</deployOneY>
+    <paramOne />
+    <paramTwo />
+  </addSpecialGameObject>
+  <addSpecialGameObject>
+    <specialName>Shadow Gate</specialName>
+    <deploySceneName>Crossroads_14</deploySceneName>
+    <deployOneX>4</deployOneX>
+    <deployOneY>34</deployOneY>
+    <paramOne />
+    <paramTwo />
+  </addSpecialGameObject>
+  <addSpecialGameObject>
+    <specialName>Shadow Gate</specialName>
+    <deploySceneName>Crossroads_33</deploySceneName>
+    <deployOneX>42</deployOneX>
+    <deployOneY>34</deployOneY>
+    <paramOne />
+    <paramTwo />
+  </addSpecialGameObject>
+  <addSpecialGameObject>
+    <specialName>Shadow Gate</specialName>
+    <deploySceneName>Crossroads_33</deploySceneName>
+    <deployOneX>26.2</deployOneX>
+    <deployOneY>28.4</deployOneY>
+    <paramOne />
+    <paramTwo />
+  </addSpecialGameObject>
+  <addSpecialGameObject>
+    <specialName>Shadow Gate</specialName>
+    <deploySceneName>Crossroads_07</deploySceneName>
+    <deployOneX>3</deployOneX>
+    <deployOneY>40</deployOneY>
+    <paramOne />
+    <paramTwo />
+  </addSpecialGameObject>
+  <addSpecialGameObject>
+    <specialName>Shadow Gate</specialName>
+    <deploySceneName>Crossroads_36</deploySceneName>
+    <deployOneX>38</deployOneX>
+    <deployOneY>4</deployOneY>
+    <paramOne />
+    <paramTwo />
+  </addSpecialGameObject>
+  <addSpecialGameObject>
+    <specialName>Shadow Gate</specialName>
+    <deploySceneName>Crossroads_27</deploySceneName>
+    <deployOneX>27</deployOneX>
+    <deployOneY>20</deployOneY>
+    <paramOne />
+    <paramTwo />
+  </addSpecialGameObject>
+  <addSpecialGameObject>
+    <specialName>Shadow Gate</specialName>
+    <deploySceneName>Crossroads_16</deploySceneName>
+    <deployOneX>17.7</deployOneX>
+    <deployOneY>9.4</deployOneY>
+    <paramOne />
+    <paramTwo />
+  </addSpecialGameObject>
+  <addSpecialGameObject>
+    <specialName>Shadow Gate</specialName>
+    <deploySceneName>Crossroads_14</deploySceneName>
+    <deployOneX>29.5</deployOneX>
+    <deployOneY>6.4</deployOneY>
+    <paramOne />
+    <paramTwo />
+  </addSpecialGameObject>
+  <addSpecialGameObject>
+    <specialName>Sawblade</specialName>
+    <deploySceneName>Crossroads_07</deploySceneName>
+    <deployOneX>20</deployOneX>
+    <deployOneY>2</deployOneY>
+    <paramOne />
+    <paramTwo />
+  </addSpecialGameObject>
+  <addSpecialGameObject>
+    <specialName>Sawblade</specialName>
+    <deploySceneName>Crossroads_33</deploySceneName>
+    <deployOneX>21</deployOneX>
+    <deployOneY>49</deployOneY>
+    <paramOne />
+    <paramTwo />
+  </addSpecialGameObject>
+</randomizer>
