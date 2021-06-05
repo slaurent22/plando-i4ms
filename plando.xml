@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <randomizer>
-  <title>Infected 4 Mask Shards v1.0</title>
+  <title>Infected 4 Mask Shards v1.1-alpha</title>
   <defaultShopItems>None</defaultShopItems>
   <forceUseFirstSimpleKeyOnWaterways>True</forceUseFirstSimpleKeyOnWaterways>
   <unlockAllColosseumTrials>True</unlockAllColosseumTrials>
@@ -22,18 +22,7 @@
   <flowerQuestPrompt>True</flowerQuestPrompt>
   <whitePalacePrompt>True</whitePalacePrompt>
   <skipExtraPlatformScenes>
-    <sceneName>Abyss_02</sceneName>
-    <sceneName>Abyss_03</sceneName>
-    <sceneName>Abyss_06_Core</sceneName>
-    <sceneName>Abyss_17</sceneName>
-    <sceneName>Abyss_20</sceneName>
-    <sceneName>Cliffs_02</sceneName>
-    <sceneName>Deepnest_01b</sceneName>
-    <sceneName>Fungus2_15</sceneName>
-    <sceneName>Fungus3_05</sceneName>
-    <sceneName>Room_Colosseum_02</sceneName>
     <sceneName>Town</sceneName>
-    <sceneName>Waterways_04</sceneName>
   </skipExtraPlatformScenes>
   <ilp>
     <item>Lurien</item>
@@ -41,6 +30,10 @@
   </ilp>
   <ilp>
     <item>Gathering_Swarm</item>
+    <location>Start</location>
+  </ilp>
+  <ilp>
+    <item>Charm_Notch</item>
     <location>Start</location>
   </ilp>
   <ilp>
@@ -59,11 +52,26 @@
     <cost>15</cost>
     <costType>Geo</costType>
   </ilp>
+  <addPreloadGameObject>
+    <originalSceneName>Town</originalSceneName>
+    <originalObjectName>RestBench</originalObjectName>
+    <deploySceneName>Crossroads_01</deploySceneName>
+    <deployX>45</deployX>
+    <deployY>30.7</deployY>
+  </addPreloadGameObject>
   <addSpecialGameObject>
     <specialName>Shadow Gate</specialName>
     <deploySceneName>Crossroads_01</deploySceneName>
-    <deployOneX>60</deployOneX>
-    <deployOneY>12</deployOneY>
+    <deployOneX>98.7</deployOneX>
+    <deployOneY>12.9</deployOneY>
+    <paramOne />
+    <paramTwo />
+  </addSpecialGameObject>
+  <addSpecialGameObject>
+    <specialName>Shadow Gate</specialName>
+    <deploySceneName>Crossroads_05</deploySceneName>
+    <deployOneX>73.3</deployOneX>
+    <deployOneY>6.9</deployOneY>
     <paramOne />
     <paramTwo />
   </addSpecialGameObject>
@@ -79,7 +87,7 @@
     <specialName>Shadow Gate</specialName>
     <deploySceneName>Crossroads_08</deploySceneName>
     <deployOneX>5</deployOneX>
-    <deployOneY>5</deployOneY>
+    <deployOneY>4.9</deployOneY>
     <paramOne />
     <paramTwo />
   </addSpecialGameObject>
@@ -95,12 +103,20 @@
     <specialName>Shadow Gate</specialName>
     <deploySceneName>Crossroads_19</deploySceneName>
     <deployOneX>3</deployOneX>
-    <deployOneY>7</deployOneY>
+    <deployOneY>5.9</deployOneY>
     <paramOne />
     <paramTwo />
   </addSpecialGameObject>
   <addSpecialGameObject>
     <specialName>Shadow Gate</specialName>
+    <deploySceneName>Crossroads_04</deploySceneName>
+    <deployOneX>158.7</deployOneX>
+    <deployOneY>23.9</deployOneY>
+    <paramOne />
+    <paramTwo />
+  </addSpecialGameObject>
+  <addSpecialGameObject>
+    <specialName>Sawblade</specialName>
     <deploySceneName>Crossroads_04</deploySceneName>
     <deployOneX>140</deployOneX>
     <deployOneY>12</deployOneY>
@@ -108,18 +124,50 @@
     <paramTwo />
   </addSpecialGameObject>
   <addSpecialGameObject>
-    <specialName>Shadow Gate</specialName>
+    <specialName>Sawblade</specialName>
     <deploySceneName>Crossroads_04</deploySceneName>
     <deployOneX>140</deployOneX>
-    <deployOneY>22</deployOneY>
+    <deployOneY>15.7</deployOneY>
     <paramOne />
     <paramTwo />
   </addSpecialGameObject>
   <addSpecialGameObject>
-    <specialName>Shadow Gate</specialName>
+    <specialName>Sawblade</specialName>
     <deploySceneName>Crossroads_04</deploySceneName>
-    <deployOneX>152</deployOneX>
-    <deployOneY>25</deployOneY>
+    <deployOneX>140</deployOneX>
+    <deployOneY>19.4</deployOneY>
+    <paramOne />
+    <paramTwo />
+  </addSpecialGameObject>
+  <addSpecialGameObject>
+    <specialName>Sawblade</specialName>
+    <deploySceneName>Crossroads_04</deploySceneName>
+    <deployOneX>140</deployOneX>
+    <deployOneY>23.1</deployOneY>
+    <paramOne />
+    <paramTwo />
+  </addSpecialGameObject>
+  <addSpecialGameObject>
+    <specialName>Sawblade</specialName>
+    <deploySceneName>Crossroads_04</deploySceneName>
+    <deployOneX>140</deployOneX>
+    <deployOneY>26.8</deployOneY>
+    <paramOne />
+    <paramTwo />
+  </addSpecialGameObject>
+  <addSpecialGameObject>
+    <specialName>Sawblade</specialName>
+    <deploySceneName>Crossroads_04</deploySceneName>
+    <deployOneX>140</deployOneX>
+    <deployOneY>30.5</deployOneY>
+    <paramOne />
+    <paramTwo />
+  </addSpecialGameObject>
+  <addSpecialGameObject>
+    <specialName>Sawblade</specialName>
+    <deploySceneName>Crossroads_04</deploySceneName>
+    <deployOneX>140</deployOneX>
+    <deployOneY>35.2</deployOneY>
     <paramOne />
     <paramTwo />
   </addSpecialGameObject>
@@ -127,7 +175,7 @@
     <specialName>Shadow Gate</specialName>
     <deploySceneName>Crossroads_03</deploySceneName>
     <deployOneX>4</deployOneX>
-    <deployOneY>32</deployOneY>
+    <deployOneY>30.9</deployOneY>
     <paramOne />
     <paramTwo />
   </addSpecialGameObject>
@@ -135,15 +183,23 @@
     <specialName>Shadow Gate</specialName>
     <deploySceneName>Crossroads_03</deploySceneName>
     <deployOneX>3</deployOneX>
-    <deployOneY>9</deployOneY>
+    <deployOneY>7.9</deployOneY>
+    <paramOne />
+    <paramTwo />
+  </addSpecialGameObject>
+  <addSpecialGameObject>
+    <specialName>Shadow Gate</specialName>
+    <deploySceneName>Crossroads_03</deploySceneName>
+    <deployOneX>26.9</deployOneX>
+    <deployOneY>58.8</deployOneY>
     <paramOne />
     <paramTwo />
   </addSpecialGameObject>
   <addSpecialGameObject>
     <specialName>Shadow Gate</specialName>
     <deploySceneName>Crossroads_14</deploySceneName>
-    <deployOneX>4</deployOneX>
-    <deployOneY>34</deployOneY>
+    <deployOneX>1.7</deployOneX>
+    <deployOneY>32.9</deployOneY>
     <paramOne />
     <paramTwo />
   </addSpecialGameObject>
@@ -157,25 +213,9 @@
   </addSpecialGameObject>
   <addSpecialGameObject>
     <specialName>Shadow Gate</specialName>
-    <deploySceneName>Crossroads_33</deploySceneName>
-    <deployOneX>26.2</deployOneX>
-    <deployOneY>28.4</deployOneY>
-    <paramOne />
-    <paramTwo />
-  </addSpecialGameObject>
-  <addSpecialGameObject>
-    <specialName>Shadow Gate</specialName>
     <deploySceneName>Crossroads_07</deploySceneName>
     <deployOneX>3</deployOneX>
-    <deployOneY>40</deployOneY>
-    <paramOne />
-    <paramTwo />
-  </addSpecialGameObject>
-  <addSpecialGameObject>
-    <specialName>Shadow Gate</specialName>
-    <deploySceneName>Crossroads_36</deploySceneName>
-    <deployOneX>38</deployOneX>
-    <deployOneY>4</deployOneY>
+    <deployOneY>38.9</deployOneY>
     <paramOne />
     <paramTwo />
   </addSpecialGameObject>
@@ -183,23 +223,23 @@
     <specialName>Shadow Gate</specialName>
     <deploySceneName>Crossroads_27</deploySceneName>
     <deployOneX>27</deployOneX>
-    <deployOneY>20</deployOneY>
+    <deployOneY>19.9</deployOneY>
     <paramOne />
     <paramTwo />
   </addSpecialGameObject>
   <addSpecialGameObject>
     <specialName>Shadow Gate</specialName>
     <deploySceneName>Crossroads_16</deploySceneName>
-    <deployOneX>17.7</deployOneX>
-    <deployOneY>9.4</deployOneY>
+    <deployOneX>2.3</deployOneX>
+    <deployOneY>8.9</deployOneY>
     <paramOne />
     <paramTwo />
   </addSpecialGameObject>
   <addSpecialGameObject>
     <specialName>Shadow Gate</specialName>
     <deploySceneName>Crossroads_14</deploySceneName>
-    <deployOneX>29.5</deployOneX>
-    <deployOneY>6.4</deployOneY>
+    <deployOneX>30.8</deployOneX>
+    <deployOneY>5.9</deployOneY>
     <paramOne />
     <paramTwo />
   </addSpecialGameObject>

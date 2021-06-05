@@ -1,7 +1,7 @@
 Goal: Collect 4 mask shards without leaving crossroads.
 
 Notes:
-- Starting items: Gathering Swarm, Lurien.
+- Starting items: Lurien, Gathering Swarm, and a 4th Charm Notch.
 - Sly's Mask Shard is more expensive.
 - Infection enables some spicy skips. Most of them are blocked off; one has a secret treat.
 - Intended allowed mods are Benchwarp set to "warp only", and Quality of Life (GrubFather should still be slow).
